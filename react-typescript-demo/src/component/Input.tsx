@@ -1,6 +1,6 @@
 type handleChange={
     value:string,
-    HandleC:()=>void
+    HandleC:(event:React.ChangeEvent<HTMLInputElement>)=>void
 }
 
 
